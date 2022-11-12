@@ -56,7 +56,7 @@ function runProgram(input)
     tc=+input[0]
     line=1
     for(let i=0;i<tc;i++){
-        n=+input[line]
+        n=+input[line]+
         line++
         arr=input[line].trim().split(" ").map(Number)
         line++
