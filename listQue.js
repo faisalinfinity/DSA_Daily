@@ -1,7 +1,7 @@
 // List and Queue 2 Ended
 // Description
 
-// You need to implement a list using queue data structure. You can only use queue.get() and queue.put() methods.
+// You need to implement a list using queue data structure. You can only uueue.get()se q and queue.put() methods.
 
 // Note- import and the use queue data structure.
 
