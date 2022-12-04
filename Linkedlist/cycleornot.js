@@ -22,3 +22,23 @@ var hasCycle = function(head) {
     
 };
 
+
+
+/////////////Second Solution
+
+
+current=head
+next=head
+
+while(current  && next && next.next){
+   current=current.next
+   next=next.next.next
+   
+   if(current==next){
+       return true
+   }
+                   
+   
+}
+return false
+
