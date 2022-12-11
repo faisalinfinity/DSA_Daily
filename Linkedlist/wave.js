@@ -28,3 +28,30 @@ var checkWavePattern = function (head) {
 };
 
 
+
+//***** */
+const LinkedListNode = class {
+    constructor(nodeData) {
+        this.data = nodeData;
+        this.next = null;
+    }
+};
+// Complete the function below
+var checkWavePattern = function (head) {
+    
+    cur=head
+    while(cur.next.next){
+        if(cur.data>=cur.next.data && cur.next.data>=cur.next.next.data){
+            return false
+        }else if(cur.data<=cur.next.data && cur.next.data<=cur.next.next.data){
+            return false
+        }
+        cur=cur.next
+    }
+    return true
+    
+    
+};
+
+
+
