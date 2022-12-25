@@ -91,7 +91,7 @@ function runProgram(input)
     line=1
     
     for(let i=0;i<tc;i++){
-        [q1,q2]=input[line].trim().split(' ').map(Number)
+        const [q1,q2]=input[line].trim().split(' ').map(Number)
         line++
         
         test(q1,q2)
