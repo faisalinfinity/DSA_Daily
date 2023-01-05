@@ -64,3 +64,4 @@ function generateALlSubstr(N,A){
    
   }
   
+  
