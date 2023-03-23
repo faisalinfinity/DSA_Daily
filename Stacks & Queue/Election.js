@@ -10,8 +10,7 @@
 // What is the maximum area of the poster you can fit using the given poles. The n consecutive poles are separated by a unit distance.
 
 
-// Input
-// Input Format
+
 // The first line contains the number of testcases t.
 
 // Next 2*t lines we have the description of the t testcases.
