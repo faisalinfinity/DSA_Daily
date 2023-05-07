@@ -3,7 +3,7 @@ function runProgram(input)
     input=input.trim().split("\n")
     n=+input[0]
     arr=input[1].trim().split(" ").map(Number)
-    QuickSort(arr,0,n-1)
+     QuickSort(arr,0,n-1)
     console.log(arr.join(" "))
     function QuickSort(arr,s,e){
         if(s>=e)return
